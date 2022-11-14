@@ -30,9 +30,7 @@ window.onclick = function(event) {
 ///////////////Start Theme Change
 
 document.getElementById("button").addEventListener("click", function() {
-
   toggleStylesheet("theme.css");
-  //insert 'link' element into head just below styles.css reference
 })
 
 function toggleStylesheet(href, onoff) {

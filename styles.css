@@ -1,9 +1,25 @@
 /*
+    Name: Michael Crowther
+    Date: 11-14-22
+    Project: 4
+
+    Self-Evaluation: I actually found this project to be quite fun. Now that I have an understanding in CSS, I'm spending less
+    time resarching and more time just creating what I'm envisioning. There weren't any reccomendations for my last project,
+    for everything was working functionally. I wanted to make the website pop more, so I added a lot more colors, gradients,
+    and glowing texts. The button at the top of the page toggles between themes. I spent some time here organizing my code as well
+    to improve readability for others and myself.
+
+    REFACTOR CSS-FIX       A / B / C / D / E: A
+    CSS THEME              A / B / C / D / E: A
+    CSS THEME TOGGLE       A / B / C / D / E: A
+    EXTRA CRED(Toggle)     A / B / C / D / E: A
+
+
     CSS Refactor Changes:
 
         - Changed location of elements for increased readability
         - Added more comments for understanding when sections start and end
-        - Added CSS for button element
+        - Added CSS for the button to have a gradient color and transition to a higher padding when you hover over it
         - Because my flex box and grid elements were working as intended from last project, I didn't make any changes. 
 */
 
@@ -100,11 +116,9 @@ figcaption{
 a:hover{
     background-color: lightgray;
     cursor: pointer;
-    
-}
-a:hover{
     color: black;
 }
+
 /*Media query for nav bar responsiveness*/
 @media (max-width: 1250px){
 
