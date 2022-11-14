@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 500% 500%;
+	animation: gradient 8s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#about{
+    background-image: url("images/background.jpg");
+    box-shadow: 0 0 4px 4px rgb(206, 194, 194) inset;
+    color: black;
+    text-shadow: 2px 2px 8px rgb(20, 195, 87);
+    font-family: 'Times New Roman', Times, serif;
+}
+#projects{
+    background-image: url("images/background.jpg");
+    box-shadow: 0 0 4px 4px rgb(241, 240, 240) inset;
+    color: black;
+    text-shadow: 2px 2px 8px rgb(20, 195, 87);
+}
